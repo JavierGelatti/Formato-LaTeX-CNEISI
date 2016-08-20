@@ -4,6 +4,7 @@
 
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} % Margenes
 \usepackage{mathptmx} % Times New Roman
+\usepackage[justification=centering,margin=.3cm]{caption} % Epígrafes
 
 \usepackage{multicol} % Dos columnas
 \setlength\columnsep{1cm}
@@ -66,3 +67,8 @@
 	\end{thebibliography}
 	\endgroup
 }
+
+% Figuras
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
