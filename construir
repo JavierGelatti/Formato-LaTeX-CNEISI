@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pdflatex --shell-escape -interaction=nonstopmode -output-directory=build ejemplo.tex
+
